@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue_100"
+    tools:context=".TollFairList">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:stretchColumns="*"
+                android:padding="6dp">
+
+                <!-- HEADER -->
+                <TableRow android:background="#1565C0">
+                    <TextView android:text="Vehicle Type" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Farmgate" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Banani" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Nikunjo" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Airport" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Uttora" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Car Row -->
+                <TableRow android:background="#E3F2FD">
+                    <TextView android:text="Car" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="50" android:padding="10dp"/>
+                    <TextView android:text="60" android:padding="10dp"/>
+                    <TextView android:text="70" android:padding="10dp"/>
+                    <TextView android:text="80" android:padding="10dp"/>
+                    <TextView android:text="100" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Bus Row -->
+                <TableRow android:background="#F5F9FF">
+                    <TextView android:text="Bus" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="100" android:padding="10dp"/>
+                    <TextView android:text="120" android:padding="10dp"/>
+                    <TextView android:text="140" android:padding="10dp"/>
+                    <TextView android:text="160" android:padding="10dp"/>
+                    <TextView android:text="200" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Truck Row -->
+                <TableRow android:background="#E3F2FD">
+                    <TextView android:text="Truck" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="150" android:padding="10dp"/>
+                    <TextView android:text="200" android:padding="10dp"/>
+                    <TextView android:text="250" android:padding="10dp"/>
+                    <TextView android:text="300" android:padding="10dp"/>
+                    <TextView android:text="350" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Bike Row -->
+                <TableRow android:background="#F5F9FF">
+                    <TextView android:text="Bike" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="30" android:padding="10dp"/>
+                    <TextView android:text="35" android:padding="10dp"/>
+                    <TextView android:text="40" android:padding="10dp"/>
+                    <TextView android:text="45" android:padding="10dp"/>
+                    <TextView android:text="50" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- CNG Row -->
+                <TableRow android:background="#E3F2FD">
+                    <TextView android:text="CNG" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="60" android:padding="10dp"/>
+                    <TextView android:text="80" android:padding="10dp"/>
+                    <TextView android:text="100" android:padding="10dp"/>
+                    <TextView android:text="120" android:padding="10dp"/>
+                    <TextView android:text="150" android:padding="10dp"/>
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

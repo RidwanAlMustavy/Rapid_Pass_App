@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue_100"
+    tools:context=".ShipFareList">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:stretchColumns="*"
+                android:padding="6dp">
+
+                <!-- HEADER -->
+                <TableRow android:background="#1565C0">
+                    <TextView android:text="From / To" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Dhaka" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Chandpur" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Feni" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Chattogram" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Cox's Bazar" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                    <TextView android:text="Saint Martin" android:textColor="@android:color/white"
+                        android:textStyle="bold" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Dhaka -->
+                <TableRow android:background="#E3F2FD">
+                    <TextView android:text="Dhaka" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="0" android:padding="10dp"/>
+                    <TextView android:text="500" android:padding="10dp"/>
+                    <TextView android:text="700" android:padding="10dp"/>
+                    <TextView android:text="1000" android:padding="10dp"/>
+                    <TextView android:text="1500" android:padding="10dp"/>
+                    <TextView android:text="2000" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Chandpur -->
+                <TableRow android:background="#F5F9FF">
+                    <TextView android:text="Chandpur" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="500" android:padding="10dp"/>
+                    <TextView android:text="0" android:padding="10dp"/>
+                    <TextView android:text="300" android:padding="10dp"/>
+                    <TextView android:text="600" android:padding="10dp"/>
+                    <TextView android:text="1000" android:padding="10dp"/>
+                    <TextView android:text="1500" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Feni -->
+                <TableRow android:background="#E3F2FD">
+                    <TextView android:text="Feni" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="700" android:padding="10dp"/>
+                    <TextView android:text="300" android:padding="10dp"/>
+                    <TextView android:text="0" android:padding="10dp"/>
+                    <TextView android:text="400" android:padding="10dp"/>
+                    <TextView android:text="900" android:padding="10dp"/>
+                    <TextView android:text="1200" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Chattogram -->
+                <TableRow android:background="#F5F9FF">
+                    <TextView android:text="Chattogram" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="1000" android:padding="10dp"/>
+                    <TextView android:text="600" android:padding="10dp"/>
+                    <TextView android:text="400" android:padding="10dp"/>
+                    <TextView android:text="0" android:padding="10dp"/>
+                    <TextView android:text="600" android:padding="10dp"/>
+                    <TextView android:text="900" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Cox's Bazar -->
+                <TableRow android:background="#E3F2FD">
+                    <TextView android:text="Cox's Bazar" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="1500" android:padding="10dp"/>
+                    <TextView android:text="1000" android:padding="10dp"/>
+                    <TextView android:text="900" android:padding="10dp"/>
+                    <TextView android:text="600" android:padding="10dp"/>
+                    <TextView android:text="0" android:padding="10dp"/>
+                    <TextView android:text="400" android:padding="10dp"/>
+                </TableRow>
+
+                <!-- Saint Martin -->
+                <TableRow android:background="#F5F9FF">
+                    <TextView android:text="Saint Martin" android:textStyle="bold"
+                        android:background="#64B5F6" android:textColor="@android:color/white"
+                        android:padding="10dp"/>
+                    <TextView android:text="2000" android:padding="10dp"/>
+                    <TextView android:text="1500" android:padding="10dp"/>
+                    <TextView android:text="1200" android:padding="10dp"/>
+                    <TextView android:text="900" android:padding="10dp"/>
+                    <TextView android:text="400" android:padding="10dp"/>
+                    <TextView android:text="0" android:padding="10dp"/>
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

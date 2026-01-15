@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716730181484",
+    "project_id": "rapidpass-4f82d",
+    "storage_bucket": "rapidpass-4f82d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716730181484:android:8b862876f8510d3ac27549",
+        "android_client_info": {
+          "package_name": "com.example.rapidpass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzfQ27YdmIdj61Iw0bvJ70vICt_MDy2lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
