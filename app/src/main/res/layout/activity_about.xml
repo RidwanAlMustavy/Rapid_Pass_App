@@ -42,7 +42,7 @@
         android:layout_width="362dp"
         android:layout_height="29dp"
         android:layout_marginTop="20dp"
-        android:text="Developed by: Md. Mobashir Tajuare Partho"
+        android:text="Developed by: Md. Ridwan Al Mustavy"
         android:textColor="@color/light_blue_900"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
