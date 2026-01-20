@@ -1,0 +1,64 @@
+{
+  "Users": {
+    "-Oid__O9WzWi1zEQlYjJ": {
+      "email": "mdpartho.11@gmail.com",
+      "name": "\nMD.Mobashir Tajuare Partho",
+      "password": "12345",
+      "phone": "01842472348",
+      "profileImage": ""
+    },
+    "-Oij7O-kebc-cC1tg_sS": {
+      "email": "p@gmail.com",
+      "name": "partho",
+      "password": "1234567",
+      "phone": "01779001161",
+      "profileImage": ""
+    },
+    "7RRszMGvtjVVoWUnjHNEEasdY9T2": {
+      "address": "dhaka",
+      "cardNo": "123456789",
+      "dob": "11/11/2001",
+      "email": "admin@gmail.com",
+      "gender": "Male",
+      "phone": "01777777777",
+      "role": "Admin",
+      "username": "partho"
+    },
+    "NA2exRZqnsact7LPpq0VzvpuGsJ3": {
+      "balance": 170,
+      "email": "p@gmail.com",
+      "name": "partho update ",
+      "password": "123456",
+      "phone": "01715226829",
+      "profileImage": ""
+    },
+    "WPInOW8Vp5RHHGFsz5pVuNFYnP62": {
+      "balance": 50,
+      "email": "meaw@gmail.com",
+      "name": "Cat",
+      "password": "1234567",
+      "phone": "01880077581",
+      "profileImage": ""
+    },
+    "lAy6pPKxkRazkgrcd7Ci74MwoiH3": {
+      "address": "khulna",
+      "cardNo": "1234567890",
+      "dob": "22/11/2003",
+      "email": "admin1@gmail.com",
+      "gender": "Female",
+      "phone": "01777777777",
+      "role": "Admin",
+      "username": "admin1"
+    }
+  },
+  "complaints": {
+    "-OijA7YvK6WLqOv1iy2z": "it is my complain",
+    "-OioNqWoKjpmIaLpQ-74": "I complain this",
+    "-Oiqh7l0BWKAmRIt8svJ": "I complain here"
+  },
+  "users": {
+    "user1": {
+      "balance": 130
+    }
+  }
+}
